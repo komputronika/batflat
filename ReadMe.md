@@ -25,14 +25,16 @@ https://batflat.org
 * Italian
 * Spanish
 * Dutch
+* Indonesian
 
 ## Modules
-* [Counter](https://github.com/michu2k/Counter): Shows the number of visits.
+* [Prism.js](https://github.com/piotr-placzek/Prism.js-module-for-BatFlat-cms.): Syntax highlighter.
 * This is place for link to your module on GitHub ;-)
 
 ## Themes
 * [Blue](https://github.com/michu2k/Blue): Simple and clean theme.
 * [Hello](https://github.com/michu2k/Hello): Light and clean theme based on flexbox grid.
+* [Frontiers](https://github.com/iskono/batflat-themes/tree/master/frontiers)
 * This is place for link to your theme on GitHub ;-)
 
 ## Recruitment
