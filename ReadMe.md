@@ -7,7 +7,7 @@ Batflat does not require MySQL database, because all the data are collected in a
 
 What's more, Batflat does not have installation wizard, because there is no such need. Right after uploading a package to an FTP server, Batflat is ready for action! Therefore, the installation process takes as much time as it takes to transfer files ;-)
 
-Each page can have it's own individual name and URL, that makes Batflat SEO friendly. Your site may be available in multiple languages. Currently Bootflat supports translation to Polish, English, French, Turkish, Swedish, Italian and Russian.
+Each page can have it's own individual name and URL, that makes Batflat SEO friendly. Your site may be available in multiple languages. Currently Batflat supports translation to Polish, English, French, Turkish, Swedish, Russian, Italian, Spanish, Dutch and Indonesian.
 
 Control panel and the default template is fully responsive, which makes it accessible from any mobile device, even on the phone thanks to used CSS framework - Bootstrap. Each of our module is adapted to it.
 
@@ -28,14 +28,20 @@ https://batflat.org
 * Indonesian
 
 ## Modules
-* [Prism.js](https://github.com/piotr-placzek/Prism.js-module-for-BatFlat-cms.): Syntax highlighter.
+* [SyntaxHighlighter](https://github.com/piotr-placzek/BatFlat-SyntaxHighlighter): Simple module based at Prism.js.
+* [FilesToDownload](https://github.com/piotr-placzek/BatFlat-FilesToDownload): Allows you to create a section of files to download on the page or post.
+* [EmbededVideoPlayer](https://github.com/piotr-placzek/BatFlat-EmbededVideoPlayer): Allows you to upload the video and its playback in the HTML5 player.
 * This is place for link to your module on GitHub ;-)
 
 ## Themes
 * [Blue](https://github.com/michu2k/Blue): Simple and clean theme.
 * [Hello](https://github.com/michu2k/Hello): Light and clean theme based on flexbox grid.
 * [Frontiers](https://github.com/iskono/batflat-themes/tree/master/frontiers)
+* [matbatflat](https://github.com/mwasil/matbatflat): Theme based on Materialize CSS with gulp/SASS support
 * This is place for link to your theme on GitHub ;-)
+
+## Tutorials
+* [Setup Batflat on Ubuntu with Nginx](https://websiteforstudents.com/setup-batflat-on-ubuntu-18-04-16-04-18-10-with-nginx-mariadb-and-php-7-2-fpm/)
 
 ## Recruitment
 We are looking for human resources, especially translators who will help us reach other corners of the world.
@@ -51,3 +57,4 @@ We are looking for human resources, especially translators who will help us reac
 * **[Giuseppe Marino](mailto:info@gpmdev.it)** - Italian translation of CMS
 * **[Javier Igal](mailto:javier@igal.es)** - Spanish translation of website and CMS
 * **[RJ Adriaansen](https://github.com/rjadr)** - Dutch translation of CMS
+* **[Komputronika](https://github.com/komputronika)** - Indonesian translation of CMS
