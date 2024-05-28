@@ -60,8 +60,9 @@ function createSlug($text)
     $text = str_replace('.', '-', trim($text));
     $text = iconv('utf-8', 'ascii//translit', $text);
     $text = preg_replace('#[^a-z0-9\-]#si', '', $text);
+    $text = str_replace('\'', '', $text);
 
-    return strtolower(str_replace('\'', '', $text));
+    return strtolower($text ? $text : '-');
 }
 
 /**
@@ -222,6 +223,7 @@ function url($data = null)
     if ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off')
         || isset_or($_SERVER['SERVER_PORT'], null) == 443
         || isset_or($_SERVER['HTTP_X_FORWARDED_PORT'], null) == 443
+        || isset_or($_SERVER['HTTP_X_FORWARDED_PROTO'], null) == 'https'
     ) {
         $protocol = 'https://';
     } else {
